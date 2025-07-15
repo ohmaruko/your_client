@@ -1,0 +1,57 @@
+:root {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  --font-black: #141414;
+  --birch: #2C2C2A;
+  --pearl: #E0E3D5;
+  --background: #E0E3D5;
+  --border: #141414;
+  --neon-yelow: #DEFF3A;
+  --lavender: #B097FA;
+  --blossom-pink: #F3ADFF;
+  --aquamarine: #64E4AD;
+
+  color: var(--font-black);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-theme='dark'] {
+  --font-black: #141414;
+  --birch: #2C2C2A;
+  --pearl: #E0E3D5;
+  --background: #2C2C2A;
+  --border: #E0E3D5;
+  --neon-yelow: #DEFF3A;
+  --lavender: #B097FA;
+  --blossom-pink: #F3ADFF;
+  --aquamarine: #64E4AD;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+
+}
+
+h1 {
+  font-size: 16pt;
+  font-weight: 450;
+}
+h2 {
+  font-size: 12pt;
+  font-weight: 450;
+}
+p {
+  font-size: 16pt;
+}
